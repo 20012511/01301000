@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fff;
+}
+
+/* Section */
+.faq-section {
+  position: relative;
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Background blur */
+.faq-blur {
+  position: absolute;
+  top: 50%;
+  right: -120px;
+  width: 380px;
+  height: 380px;
+  background: rgba(216, 180, 254, 0.3);
+  filter: blur(90px);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+/* Header */
+.faq-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #ff5c35;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.faq-header h2 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+/* FAQ Items */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  border-radius: 20px;
+  background: #f9f9f9;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+
+.faq-item:hover {
+  background: #f0f0f0;
+}
+
+.faq-item.open {
+  background: #f3f3f3;
+}
+
+/* Button */
+.faq-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  align-items: center;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  padding-right: 20px;
+}
+
+/* Icons (Plus / Minus) */
+.icon {
+  width: 26px;
+  height: 26px;
+  stroke: #555;
+}
+
+/* Answer container */
+.faq-answer-wrapper {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.35s ease;
+}
+
+.faq-item.open .faq-answer-wrapper {
+  max-height: 300px;
+  opacity: 1;
+}
+
+/* Answer text */
+.faq-answer {
+  padding: 0 28px 24px 28px;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.plus-icon {
+  display: block;
+}
+.minus-icon {
+  display: none;
+}
+
+.faq-item.open .plus-icon {
+  display: none;
+}
+.faq-item.open .minus-icon {
+  display: block;
+}

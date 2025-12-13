@@ -1,0 +1,76 @@
+.testimonials-section {
+  width: 100%;
+  overflow: hidden;
+  padding: 6rem 0;
+  background: linear-gradient(to right, transparent, #f9fafb, transparent);
+  position: relative;
+}
+
+.blur-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.marquee-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+}
+
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  white-space: nowrap;
+  min-width: 100%;
+  padding-left: 1rem;
+  animation: marquee 40s linear infinite;
+  opacity: 0.9;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.testimonial-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  transition: opacity 0.3s;
+}
+
+.testimonial-item:hover {
+  opacity: 1;
+}
+
+.testimonial-avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #334155;
+  letter-spacing: -0.5px;
+}
+
+/* Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

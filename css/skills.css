@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* SECTION WRAPPER */
+.skills-section {
+  padding: 60px 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* GRADIENT BOX */
+.skills-wrapper {
+  position: relative;
+  border-radius: 48px;
+  padding: 32px;
+  background: linear-gradient(to bottom right, #ede9fe, #fce7f3, #dbeafe);
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .skills-wrapper {
+    padding: 64px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills-wrapper {
+    padding: 96px;
+  }
+}
+
+/* GRID OVERLAY */
+.grid-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+  background-image: linear-gradient(#cbd5e1 1px, transparent 1px),
+    linear-gradient(90deg, #cbd5e1 1px, transparent 1px);
+  background-size: 4rem 4rem;
+}
+
+/* CONTENT LAYOUT */
+.skills-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+@media (min-width: 1024px) {
+  .skills-content {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* LEFT TEXT */
+.skills-left {
+  flex: 1;
+}
+
+.skills-right {
+  flex: 1;
+}
+
+.sub-title {
+  color: #475569;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.main-title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #0f172a;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 56px;
+  }
+}
+
+/* SKILLS GRID */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+}
+
+/* SKILL CARD */
+.skill-card {
+  aspect-ratio: 1/1;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* SVG ICONS */
+.icon {
+  color: #1e293b;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover .icon {
+  color: #ff4d4d;
+}
+
+/* XD / PS TEXT ICONS */
+.text-icon {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+}

@@ -1,0 +1,9 @@
+*,body,html{
+    /* padding-inline: 300px; */
+/* padding-left: 50px; */
+
+}
+
+body{
+    overflow-x: hidden;
+}

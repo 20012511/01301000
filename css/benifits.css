@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Section */
+.benefits-section {
+  /* padding: 80px 20px; */
+  font-family: 'Poppins', sans-serif;
+  padding-top: 6rem;
+  padding-left: 3.8rem;
+  padding-right: 3.8rem;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Badge */
+.badge1 {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  padding: 6px 16px;
+  background: #f5f7f9;
+  color: #0f0f0f;
+  font-size: 14px;
+  border-radius: 20px;
+  /* margin-bottom: 24px; */
+}
+
+/* Top row */
+.top-row {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .top-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
+/* Title */
+.title1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  max-width: 550px;
+  line-height: 1.2;
+  color: #0f172a;
+  margin-top: 1rem;
+}
+
+/* card1s layout */
+.card1s-container {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .card1s-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card1s-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* card1 */
+.card1 {
+  background: #f8fafc;
+  border-radius: 32px;
+  padding: 32px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.card1:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Text */
+.card1 p {
+  font-size: 20px;
+  color: #1e293b;
+  line-height: 1.5;
+  z-index: 2;
+  font-weight: 500;
+}
+
+/* Image */
+.card1-img-wrapper {
+  height: 11.3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.card1-img-wrapper img {
+  max-height: 100%;
+  object-fit: contain;
+  filter: grayscale(1) contrast(1.2);
+  opacity: 0.8;
+  transition: 0.4s;
+  border-radius: 1.2rem;
+}
+
+.card1:hover img {
+  opacity: 1;
+  transform: scale(1.05);
+}

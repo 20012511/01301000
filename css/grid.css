@@ -1,0 +1,30 @@
+.grid {
+  width: 110vw;
+  height: 130vh;
+  position: absolute; /* IMPORTANT */
+  overflow: hidden; /* CROPS CHILD */
+}
+
+.grid-overlay-hero {
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  inset: -10rem; /* can extend outside */
+  opacity: 0.4;
+  background-image: linear-gradient(#cbd5e1 1px, transparent 1px),
+    linear-gradient(90deg, #cbd5e1 1px, transparent 1px);
+  background-size: 5.5rem 5.5rem;
+}
+
+@media (min-width: 1024px) {
+ .grid{
+    width: 120vw;
+ }
+}
+
+@media (min-width: 1200px) {
+ .grid{
+    width: 112vw;
+ }
+}
