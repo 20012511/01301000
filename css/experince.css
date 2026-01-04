@@ -588,7 +588,7 @@ body {
 
 /* Period */
 .period {
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   color: #999;
   font-weight: 600;
   text-transform: uppercase;
@@ -597,7 +597,7 @@ body {
 @media (min-width: 800px) {
   .period {
     font-family: 'Poppins', sans-serif;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     padding-top: 7%;
   }
 }
