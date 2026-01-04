@@ -641,6 +641,107 @@
   }
 
   .mobile-contact {
+    padding-top: 18vw;
+  }
+
+  .center-info1 {
+    font-size: 0.7rem;
+  }
+
+  section.hero {
+    /* padding-top: 1rem; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .hero-top {
+    margin-top: 1.5rem;
+  }
+
+  .hero-top p {
+    font-size: 0.9rem;
+  }
+
+  .hero-title,
+  .hero-title-secondary {
+    font-size: 2.6rem;
+  }
+
+  .hero-row {
+    margin-bottom: 22.5rem;
+  }
+
+  .hero-mini-text {
+    display: flex;
+    font-size: 0.7rem;
+  }
+
+  .hero-badge {
+    width: 4.4rem;
+    height: 2.8rem;
+  }
+
+  .hero-big-name {
+    /* background: #fff; */
+    width: 100vw;
+    z-index: 5;
+    font-size: 13.5vw;
+    text-align: left;
+    padding-bottom: 0;
+    justify-self: center;
+    margin-bottom: 2rem;
+  }
+
+  .hero-mobile-img {
+    display: none;
+  }
+
+  /* Images */
+  .hero-images {
+    display: block;
+    position: absolute;
+    top: 11rem;
+    right: -3.6rem;
+    width: 22rem;
+    height: 17rem;
+  }
+
+  .hero-images .circles {
+    position: absolute;
+    top: -35%;
+    right: clamp(26%, 20% + 2vw, 34%);
+    width: 382px;
+    height: 205px;
+    transform: rotate(-4deg);
+    z-index: -1;
+  }
+
+  .img-orange {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transform: rotate(-14.86deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+
+  .img-main {
+    position: absolute;
+    left: 21%;
+    width: 50%;
+    height: 100%;
+    transform: rotate(9.54deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .mobile-contact {
     padding-top: 16vw;
   }
 
