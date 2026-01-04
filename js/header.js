@@ -56,6 +56,10 @@ function heroAnimation () {
         force3D: true
       }
     })
+     .from('.center-info1 .text-inner', {
+      yPercent: 100,
+      stagger: 0.07 // Slightly tighter
+    })
     .from('.hero-top .text-inner', {
       yPercent: 100,
       stagger: 0.07 // Slightly tighter
@@ -122,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
   wrapImages('.img-orange, .img-main')
 
   splitTextToSpans(`
+    .center-info1,
     .hero-top p,
     .hero-title,
     .hero-title-secondary,
