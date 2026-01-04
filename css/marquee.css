@@ -13,7 +13,7 @@
 .marquee-track1 {
   display: inline-flex;
   align-items: center;
-  animation: marquee 30s linear infinite;
+  /* animation: marquee 30s linear infinite; */
 }
 
 .marquee-track1:hover {
@@ -25,6 +25,7 @@
   align-items: center;
   margin: 0 1rem;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .marquee-item1 svg {
@@ -51,11 +52,11 @@
   }
 }
 
-@keyframes marquee1 {
+/* @keyframes marquee1 {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
   }
-}
+} */

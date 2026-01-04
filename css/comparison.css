@@ -15,7 +15,7 @@ body {
 
 @media (min-width: 300px) {
   .comparison-section {
-    margin-top: 0rem;
+    margin-top: 3rem;
     padding-top: 1rem;
     padding-left: 1.4rem;
     padding-right: 1.4rem;
@@ -24,7 +24,7 @@ body {
 
 @media (min-width: 550px) {
   .comparison-section {
-    margin-top: 0rem;
+    margin-top: 3rem;
     padding-top: 2.5rem;
     padding-left: 2.2rem;
     padding-right: 2.2rem;
@@ -33,7 +33,7 @@ body {
 
 @media (min-width: 740px) {
   .comparison-section {
-    margin-top: 0rem;
+    margin-top: 3rem;
     padding-top: 3rem;
     padding-left: 2.2rem;
     padding-right: 2.2rem;
@@ -42,7 +42,7 @@ body {
 
 @media (min-width: 765px) {
   .comparison-section {
-    margin-top: 0rem;
+    margin-top: 1rem;
     padding-top: 7rem;
     padding-left: 2.6rem;
     padding-right: 2.6rem;
@@ -113,7 +113,7 @@ body {
 @media (min-width: 300px) {
   .comparison-title {
     font-size: 1.2rem;
-    text-align: left;
+    /* text-align: left; */
     max-width: 290px;
   }
 }
@@ -121,7 +121,7 @@ body {
 @media (min-width: 340px) {
   .comparison-title {
     font-size: 1.3rem;
-    text-align: left;
+    /* text-align: left; */
     max-width: 320px;
   }
 }
@@ -129,7 +129,7 @@ body {
 @media (min-width: 370px) {
   .comparison-title {
     font-size: 1.45rem;
-    text-align: left;
+    /* text-align: left; */
     max-width: 350px;
   }
 }
@@ -137,7 +137,7 @@ body {
 @media (min-width: 400px) {
   .comparison-title {
     font-size: 1.55rem;
-    text-align: left;
+    /* text-align: left; */
     max-width: 350px;
   }
 }
@@ -145,7 +145,7 @@ body {
 @media (min-width: 430px) {
   .comparison-title {
     font-size: 1.65rem;
-    text-align: left;
+    /* text-align: left; */
     max-width: 400px;
   }
 }
@@ -153,7 +153,7 @@ body {
 @media (min-width: 470px) {
   .comparison-title {
     font-size: 1.85rem;
-    text-align: left;
+    /* text-align: left; */
     max-width: 440px;
   }
 }
@@ -161,7 +161,7 @@ body {
 @media (min-width: 500px) {
   .comparison-title {
     font-size: 1.95rem;
-    text-align: left;
+    /* text-align: left; */
     max-width: 450px;
   }
 }

@@ -33,13 +33,21 @@ body {
 
 @media (min-width: 768px) {
   .footer-stats {
-    margin-top: 8rem;
+    margin-top: 5rem;
     padding-left: 2.7rem;
     padding-right: 2.7rem;
   }
 }
 
 @media (min-width: 900px) {
+  .footer-stats {
+    margin-top: 6rem;
+    padding-left: 3.3rem;
+    padding-right: 3.1rem;
+  }
+}
+
+@media (min-width: 1000px) {
   .footer-stats {
     margin-top: 8rem;
     padding-left: 3.3rem;
@@ -341,8 +349,6 @@ body {
   overflow: hidden;
   line-height: 1.2;
 }
-
-
 
 /* Word mask */
 

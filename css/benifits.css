@@ -30,15 +30,15 @@ body {
 
 @media (min-width: 300px) {
   .benefits-section {
-    margin-top: 3rem;
-    padding-left: 2rem;
-    padding-right: 1rem;
+    margin-top: 0rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
   }
 }
 
 @media (min-width: 550px) {
   .benefits-section {
-    margin-top: 3rem;
+    margin-top: 0rem;
     padding-left: 2.2rem;
     padding-right: 2.2rem;
   }
@@ -46,11 +46,20 @@ body {
 
 @media (min-width: 780px) {
   .benefits-section {
-    margin-top: 3rem;
+    margin-top: 0rem;
     padding-left: 3.3rem;
     padding-right: 3.3rem;
   }
 }
+
+@media (min-width: 1000px) {
+  .benefits-section {
+    margin-top: 2rem;
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+  }
+}
+
 
 /* Badge */
 .badge1 {

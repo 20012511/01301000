@@ -385,7 +385,7 @@ body {
 @media (min-width: 300px) {
   .services-try {
     margin-top: 0rem;
-    padding-top: 1rem;
+    padding-top: 0rem;
     padding-left: 1.45rem;
     padding-right: 1.45rem;
   }
@@ -394,7 +394,7 @@ body {
 @media (min-width: 550px) {
   .services-try {
     margin-top: 0rem;
-    padding-top: 2.5rem;
+    /* padding-top: 2.5rem; */
     padding-left: 2.2rem;
     padding-right: 2.2rem;
   }
@@ -403,7 +403,7 @@ body {
 @media (min-width: 740px) {
   .services-try {
     margin-top: 0rem;
-    padding-top: 3rem;
+    /* padding-top: 0rem; */
     padding-left: 2.2rem;
     padding-right: 2.2rem;
   }
@@ -412,7 +412,7 @@ body {
 @media (min-width: 765px) {
   .services-try {
     margin-top: 0rem;
-    padding-top: 3rem;
+    /* padding-top: 0rem; */
     padding-left: 2.6rem;
     padding-right: 2.6rem;
   }
@@ -427,6 +427,7 @@ body {
 
 @media (min-width: 965px) {
   .services-try {
+    padding-top: 2rem;
     padding-left: 2.9rem;
     padding-right: 2.9rem;
   }
@@ -441,6 +442,7 @@ body {
 
 @media (min-width: 1190px) {
   .services-try {
+    padding-top: 3rem;
     padding-left: 3.3rem;
     padding-right: 3.3rem;
   }
@@ -489,7 +491,7 @@ body {
 
 /* view-container: Horizontal Stack */
 .view-container {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   /* max-width: 1400px; */
   /* margin: auto; */
   /* padding: 80px 20px; */
