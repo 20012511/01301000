@@ -210,6 +210,7 @@ body.dark .theme-toggle {
     width: 100vw;
     margin-right: 0vw;
     padding-right: 0vw;
+    height: 80px;
   }
 
   header {
@@ -238,6 +239,7 @@ body.dark .theme-toggle {
     width: 100vw;
     margin-right: 0vw;
     padding-right: 0vw;
+    height: 60px;
   }
 
   header {
