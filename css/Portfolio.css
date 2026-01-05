@@ -1,4 +1,141 @@
 /* Section Header */
+
+/* tabs layout */
+
+/* --- Base Styles & Variables --- */
+:root {
+  --tab-padding: 0.8rem 1.5rem;
+  --tab-font-size: 0.9rem;
+  --container-margin: 3rem;
+}
+
+.portfolio-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: var(--container-margin);
+  padding: 0.5rem;
+
+  /* Mobile-first scrolling behavior */
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+
+  /* Hide scrollbars */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.portfolio-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-btn {
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  padding: var(--tab-padding);
+  border-radius: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--tab-font-size);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #64748b;
+  flex-shrink: 0; /* Prevents buttons from squishing on small screens */
+}
+
+/* --- Responsive Adjustments --- */
+
+/* Small Devices (Phones, 640px and down) */
+@media (max-width: 640px) {
+  .portfolio-tabs {
+    justify-content: flex-start; /* Align left so user knows to scroll right */
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    padding-left: 0rem; 
+    /* Better edge alignment for horizontal scroll */
+  }
+
+  .tab-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Medium Devices (Tablets, 768px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .portfolio-tabs {
+    gap: 1.25rem;
+  }
+}
+
+/* Large/Desktop Devices (1024px and up) */
+@media (min-width: 1025px) {
+  .portfolio-tabs {
+    overflow-x: visible; /* No need to scroll on large screens */
+    white-space: normal; /* Allow wrapping if there are many categories */
+    flex-wrap: wrap;
+  }
+}
+
+/* Tab Layout Styles */
+/* .portfolio-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  overflow-x: auto; 
+  padding: 0.5rem;
+  white-space: nowrap;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.portfolio-tabs::-webkit-scrollbar {
+  display: none; 
+}
+
+.tab-btn {
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #64748b;
+} */
+
+.tab-btn:hover {
+  border-color: #6366f1;
+  color: #6366f1;
+}
+
+.tab-btn.active {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+/* Animation for filtering */
+.portfolio-item {
+  animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* end */
 .section-header {
   text-align: center;
   margin-bottom: 3rem;
