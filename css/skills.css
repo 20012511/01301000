@@ -415,6 +415,7 @@ body {
 }
 
 .skill-card {
+  opacity: 60%;
   width: 100%;
   max-width: 100px; /* Limits the card growth on large screens */
   aspect-ratio: 1 / 1; /* Keeps cards perfectly square */
