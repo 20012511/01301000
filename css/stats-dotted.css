@@ -82,118 +82,132 @@ body {
 
 @media (min-width: 300px) {
   .headline h2 {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     text-align: left;
   }
 }
 
 @media (min-width: 340px) {
   .headline h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: left;
   }
 }
 
 @media (min-width: 370px) {
   .headline h2 {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     text-align: left;
   }
 }
 
 @media (min-width: 400px) {
   .headline h2 {
-    font-size: 1.55rem;
+    font-size: 1.45rem;
     text-align: left;
   }
 }
 
 @media (min-width: 430px) {
   .headline h2 {
-    font-size: 1.65rem;
+    font-size: 1.55rem;
     text-align: left;
   }
 }
 
 @media (min-width: 470px) {
   .headline h2 {
-    font-size: 1.85rem;
+    font-size: 1.75rem;
     text-align: left;
   }
 }
 
 @media (min-width: 500px) {
   .headline h2 {
-    font-size: 1.95rem;
+    font-size: 1.85rem;
     text-align: left;
   }
 }
 
 @media (min-width: 525px) {
   .headline h2 {
-    font-size: 2rem;
+    font-size: 1.95rem;
     text-align: left;
   }
 }
 
 @media (min-width: 550px) {
   .headline h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 }
 @media (min-width: 613px) {
   .headline h2 {
-    font-size: 1.8rem;
+    font-size: 1.55rem;
     text-align: center;
   }
 }
 
 @media (min-width: 620px) {
   .headline h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
   }
 }
 
 @media (min-width: 650px) {
   .headline h2 {
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     text-align: center;
   }
 }
 
 @media (min-width: 670px) {
   .headline h2 {
-    font-size: 1.9rem;
+    font-size: 1.75rem;
     text-align: center;
   }
 }
 
 @media (min-width: 700px) {
   .headline h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 }
 
 @media (min-width: 719px) {
   .headline h2 {
-    font-size: 2.1rem;
+    font-size: 1.86rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 788px) {
+  .headline h2 {
+    font-size: 1.98rem;
     text-align: center;
   }
 }
 
 @media (min-width: 834px) {
   .headline h2 {
-    font-size: 2.3rem;
+    font-size: 2.15rem;
     text-align: center;
   }
 }
 
 @media (min-width: 1100px) {
   .headline h2 {
-    font-size: 2.8rem;
+    font-size: 2.32rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1300px) {
+  .headline h2 {
+    font-size: 2.45rem;
     text-align: center;
   }
 }

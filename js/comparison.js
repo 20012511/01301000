@@ -1,15 +1,21 @@
 // Data converted from your React constants
 const COMPARISON_DATA = [
-  { others: 'Generic Solutions', we: 'Personalized Plans' },
-  { others: 'Jargon Overload', we: 'Plain Talk' },
-  { others: 'Boring Creativity', we: 'Bold Ideas' },
-  { others: 'Fluff Metrics', we: 'Real ROI' },
-  { others: 'One-Time Campaigners', we: 'Long-Term Partners' },
-  { others: 'Hidden Costs', we: 'Transparent Pricing' },
-  { others: 'Outdated Methods', we: 'Innovative Tools' },
-  { others: 'Limited Scope', we: 'Full-Service Experts' },
-  { others: 'Reactive Tactics', we: 'Proactive Strategies' },
-  { others: 'Just Another Client', we: 'Passion & Care' }
+  { others: 'Generic layouts', we: 'Scalable design systems' },
+  { others: 'Hard to code', we: 'CS-backed feasibility' },
+  { others: 'Pure aesthetics', we: 'Data-driven usability' },
+  { others: 'Guessed behavior', we: 'Proven 20% engagement' },
+  { others: 'Technical gaps', we: 'Full-stack awareness' },
+  { others: 'Static UI', we: '3D & Motion immersion' },
+  { others: 'Surface design', we: 'Strategic business logic' },
+  { others: 'Design fluff', we: 'Real product ROI' },
+  // { others: 'Jargon overload', we: 'Technical clarity' },
+  { others: 'Outdated tools', we: 'Modern AI workflows' },
+  { others: 'Narrow focus', we: 'End-to-end delivery' },
+  { others: 'Short-term fixes', we: 'Long-term scalability' },
+  { others: 'Reactive design', we: 'Proactive strategy' },
+  // { others: 'Slow handoffs', we: 'Developer-ready files' },
+  { others: 'Standard agency', we: 'Product-first mindset' },
+  { others: 'Solo designer', we: 'Community-led insights' }
 ]
 
 // DOM injectors

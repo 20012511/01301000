@@ -81,10 +81,9 @@ body {
   font-weight: 800;
   line-height: 1.1;
 } */
-
 .contact-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.25rem; /* Reduced from 2.5rem */
   /* line-height: 0rem; */
   font-weight: 500;
   margin-top: 3rem;
@@ -93,112 +92,111 @@ body {
 
 @media (min-width: 300px) {
   .contact-title {
-    font-size: 1.2rem;
+    font-size: 1.05rem; /* Reduced from 1.2rem */
     max-width: 290px;
   }
 }
 
 @media (min-width: 340px) {
   .contact-title {
-    font-size: 1.3rem;
+    font-size: 1.10rem; /* Reduced from 1.3rem */
     max-width: 320px;
   }
 }
 
 @media (min-width: 370px) {
   .contact-title {
-    font-size: 1.45rem;
+    font-size: 1.25rem; /* Reduced from 1.45rem */
     max-width: 350px;
   }
 }
 
 @media (min-width: 400px) {
   .contact-title {
-    font-size: 1.55rem;
+    font-size: 1.35rem; /* Reduced from 1.55rem */
     max-width: 350px;
   }
 }
 
 @media (min-width: 430px) {
   .contact-title {
-    font-size: 1.65rem;
+    font-size: 1.45rem; /* Reduced from 1.65rem */
     max-width: 400px;
   }
 }
 
 @media (min-width: 470px) {
   .contact-title {
-    font-size: 1.85rem;
+    font-size: 1.6rem; /* Reduced from 1.85rem */
     max-width: 440px;
   }
 }
 
 @media (min-width: 500px) {
   .contact-title {
-    font-size: 1.95rem;
+    font-size: 1.7rem; /* Reduced from 1.95rem */
     max-width: 450px;
   }
 }
 
 @media (min-width: 525px) {
   .contact-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem; /* Reduced from 1.5rem */
   }
 }
 
 @media (min-width: 550px) {
   .contact-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem; /* Reduced from 1.5rem */
   }
 }
+
 @media (min-width: 613px) {
   .contact-title {
-    font-size: 1.8rem;
+    font-size: 1.55rem; /* Reduced from 1.8rem */
   }
 }
 
 @media (min-width: 620px) {
   .contact-title {
-    font-size: 1.8rem;
+    font-size: 1.55rem; /* Reduced from 1.8rem */
   }
 }
 
 @media (min-width: 650px) {
   .contact-title {
-    font-size: 1.8rem;
+    font-size: 1.55rem; /* Reduced from 1.8rem */
   }
 }
 
 @media (min-width: 670px) {
   .contact-title {
-    font-size: 1.9rem;
+    font-size: 1.65rem; /* Reduced from 1.9rem */
   }
 }
 
 @media (min-width: 700px) {
   .contact-title {
-    font-size: 2rem;
+    font-size: 1.75rem; /* Reduced from 2.0rem */
   }
 }
 
 @media (min-width: 719px) {
   .contact-title {
-    font-size: 1.8rem;
-
+    font-size: 1.55rem; /* Reduced from 1.8rem */
     max-width: 800px;
   }
 }
 
 @media (min-width: 834px) {
   .contact-title {
-    font-size: 2rem;
+    font-size: 1.75rem; /* Reduced from 2.0rem */
   }
 }
 
 @media (min-width: 1100px) {
   .contact-title {
-    /* font-size: 2.8rem; */
-    font-size: 2.5rem;
+    font-size: 2.25rem; /* Reduced from 2.5rem */
     max-width: 1000px;
   }
 }
