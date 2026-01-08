@@ -1666,7 +1666,7 @@
         update() {
           if (!this.uniforms) return
 
-          const time = (this.uniforms.u_time.value += 0.015)
+          const time = (this.uniforms.u_time.value += 0.01)
           const idleTime = Date.now() - this.lastMouseMove
 
           let targetX, targetY
@@ -1683,7 +1683,7 @@
             // If we just entered idle mode (between 300ms and 1000ms),
             // we increase the lerp factor to "snap" it into the auto-path quickly.
             if (idleTime < 1000) {
-              lerpFactor = 0.15
+              lerpFactor = 0.10
             }
           } else {
             // FOLLOW MOUSE
