@@ -1266,7 +1266,7 @@
 
       <div class="portfolio-tabs">
         <button class="tab-btn active" data-category="all">All Work</button>
-        <button class="tab-btn" data-category="Development">Devs</button>
+        <button class="tab-btn" data-category="Dev">Devs</button>
         <button class="tab-btn" data-category="UI/UX">UI/UX Design</button>
         <button class="tab-btn" data-category="3D">3D Blender</button>
 
@@ -1666,28 +1666,37 @@
         update() {
           if (!this.uniforms) return
 
-          const time = (this.uniforms.u_time.value += 0.01)
+          const time = (this.uniforms.u_time.value += 0.02)
           const idleTime = Date.now() - this.lastMouseMove
 
           let targetX, targetY
+          let lerpFactor = 0.05 // Default smooth speed
 
-          if (idleTime > 1500) {
-            // AUTO MOVE LOGIC: Create a floating path using Sine/Cosine
-            // We use slightly different offsets for X and Y so it doesn't just move in a circle
-            targetX = Math.sin(time * 1) * 0.8
-            targetY = Math.cos(time * 0.6) * 0.8
+          if (idleTime > 300) {
+            // AUTO MOVE
+            // lerpFactor = 0.7
+             // Smooth but quicker
+            targetX = Math.sin(time * 2.1) * 0.7
+            targetY = Math.cos(time * 1.7) * 0.7
+
+            // REDUCE THE DELAY:
+            // If we just entered idle mode (between 300ms and 1000ms),
+            // we increase the lerp factor to "snap" it into the auto-path quickly.
+            if (idleTime < 1000) {
+              lerpFactor = 0.15
+            }
           } else {
             // FOLLOW MOUSE
             targetX = this.mouse.x
             targetY = this.mouse.y
+            lerpFactor = 0.1 // Make mouse following snappy
           }
 
-          // Smoothly interpolate (Lerp) towards the target
-          // 0.05 is the easing factor (smaller = slower/smoother)
+          // Apply the movement
           this.uniforms.u_mouse.value.x +=
-            (targetX - this.uniforms.u_mouse.value.x) * 0.05
+            (targetX - this.uniforms.u_mouse.value.x) * lerpFactor
           this.uniforms.u_mouse.value.y +=
-            (targetY - this.uniforms.u_mouse.value.y) * 0.05
+            (targetY - this.uniforms.u_mouse.value.y) * lerpFactor
         }
       }
 

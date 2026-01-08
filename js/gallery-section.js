@@ -7,8 +7,9 @@ mm.add("(min-width: 769px)", () => {
     scrollTrigger: {
       trigger: '.gallery-section',
       start: 'top 15%',
-      end: '+=80%',
       scrub: 1,
+      endTrigger: '.gallery-section',
+      end: '+=80%',
       pin: true,
       anticipatePin: 1,
       invalidateOnRefresh: true,

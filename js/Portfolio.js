@@ -143,6 +143,72 @@ document.addEventListener('DOMContentLoaded', () => {
       videoUrl: '',
       tags: ['Figma'],
       link: 'https://www.behance.net/gallery/171925489/FIGMA-HEADPHONE-PROTOTYPING' // Added link
+    },
+    {
+      id: 'p13',
+      title: 'Sundown studio Landing Page',
+      category: 'Travel Agency Website Design',
+      tab: 'Dev',
+      imageUrl:
+        'https://res.cloudinary.com/dumon96kf/image/upload/v1767515349/p12_yae1au.png',
+      videoUrl: '',
+      tags: ['Figma'],
+      link: 'https://ashu-gfx.github.io/Sundown-studio-website-gsap-1/' // Added link
+    },
+    {
+      id: 'p14',
+      title: 'DUO LANDING PAGE DESIGN',
+      category: 'Travel Agency Website Design',
+      tab: 'Dev',
+      imageUrl:
+        'https://res.cloudinary.com/dumon96kf/image/upload/v1767515349/p12_yae1au.png',
+      videoUrl: '',
+      tags: ['Figma'],
+      link: 'https://ashu-gfx.github.io/PROJECT-3-DUO-main/' // Added link
+    },
+    {
+      id: 'p15',
+      title: 'Ray Ben Landing Page Design',
+      category: 'Travel Agency Website Design',
+      tab: 'Dev',
+      imageUrl:
+        'https://res.cloudinary.com/dumon96kf/image/upload/v1767515349/p12_yae1au.png',
+      videoUrl: '',
+      tags: ['Figma'],
+      link: 'https://ashu-gfx.github.io/RAY-BAN-REDESIGN-main/' // Added link
+    },
+    {
+      id: 'p16',
+      title: 'Rejoice Landing Page Design',
+      category: 'Travel Agency Website Design',
+      tab: 'Dev',
+      imageUrl:
+        'https://res.cloudinary.com/dumon96kf/image/upload/v1767515349/p12_yae1au.png',
+      videoUrl: '',
+      tags: ['Figma'],
+      link: 'https://ashu-gfx.github.io/Rejoice-website-clone-gsap/' // Added link
+    },
+    {
+      id: 'p17',
+      title: 'FIGMA HEADPHONE PROTOTYPING',
+      category: 'Travel Agency Website Design',
+      tab: 'Dev',
+      imageUrl:
+        'https://res.cloudinary.com/dumon96kf/image/upload/v1767515349/p12_yae1au.png',
+      videoUrl: '',
+      tags: ['Figma'],
+      link: 'https://www.behance.net/gallery/171925489/FIGMA-HEADPHONE-PROTOTYPING' // Added link
+    },
+    {
+      id: 'p17',
+      title: 'FIGMA HEADPHONE PROTOTYPING',
+      category: 'Travel Agency Website Design',
+      tab: 'Dev',
+      imageUrl:
+        'https://res.cloudinary.com/dumon96kf/image/upload/v1767515349/p12_yae1au.png',
+      videoUrl: '',
+      tags: ['Figma'],
+      link: 'https://www.behance.net/gallery/171925489/FIGMA-HEADPHONE-PROTOTYPING' // Added link
     }
   ]
 
