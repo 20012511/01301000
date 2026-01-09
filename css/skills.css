@@ -84,6 +84,15 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .skills-wrapper {
+    padding-right: 2.2rem;
+    /* padding: inherit; */
+    padding-bottom: 2.5rem;
+    padding-left: 1.4rem;
+  }
+}
+
 @media (min-width: 768px) {
   .skills-wrapper {
     padding: 64px;
@@ -444,26 +453,23 @@ body {
   display: block;
 }
 
-
-
 @media (min-width: 1180px) {
   :root {
-     --icon-size: 30px;
+    --icon-size: 30px;
     --icon-size-w: 34px;
   }
 }
 
-
 @media (min-width: 1024px) {
   :root {
-     --icon-size: 26px;
+    --icon-size: 26px;
     --icon-size-w: 30px;
   }
 }
 
 @media (max-width: 1024px) {
   :root {
-     --icon-size: 20px;
+    --icon-size: 20px;
     --icon-size-w: 28px;
   }
 }

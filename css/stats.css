@@ -96,6 +96,11 @@
     text-align: center;
   }
 
+  .stats-description {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .stats-description p {
     font-size: 0.6rem;
   }
