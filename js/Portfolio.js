@@ -149,176 +149,160 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Sundown studio Landing Page',
       category: 'Travel Agency Website Design',
       tab: 'not-responsive-yet',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767860101/sundown_qubyho.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767860101/sundown_qubyho.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://sundown-studio-website-gsap-1.vercel.app/' // Added link
+      tags: ['GSAP', 'Locomotive Scroll', 'Frontend'],
+      link: 'https://sundown-studio-website-gsap-1.vercel.app/' 
     },
     {
       id: 'p14',
       title: 'DUO LANDING PAGE DESIGN',
       category: 'Travel Agency Website Design',
       tab: 'Dev',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767860099/DUO_w20gpa.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767860099/DUO_w20gpa.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://ashu-gfx.github.io/PROJECT-3-DUO-main/' // Added link
+      tags: ['GSAP', 'CSS Animations'],
+      link: 'https://ashu-gfx.github.io/PROJECT-3-DUO-main/' 
     },
     {
       id: 'p15',
       title: 'Ray Ben Landing Page Design',
       category: 'Travel Agency Website Design',
       tab: 'not-responsive-yet',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767860104/RAY-ben_vfaabu.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767860104/RAY-ben_vfaabu.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://ashu-gfx.github.io/RAY-BAN-REDESIGN-main/' // Added link
+      tags: ['Product Design', 'GSAP'],
+      link: 'https://ashu-gfx.github.io/RAY-BAN-REDESIGN-main/' 
     },
     {
       id: 'p16',
       title: 'Rejoice Landing Page Design',
       category: 'Travel Agency Website Design',
       tab: 'not-responsive-yet',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767860102/rejouice_vjynfl.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767860102/rejouice_vjynfl.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://rejoice-website-clone-gsap.vercel.app/' // Added link
+      tags: ['GSAP', 'Canvas API', 'ScrollTrigger'],
+      link: 'https://rejoice-website-clone-gsap.vercel.app/' 
     },
     {
       id: 'p17',
       title: 'Image Trail Hover Effect',
       category: 'Travel Agency Website Design',
       tab: 'not-responsive-yet',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767860102/image_trail_gtxwju.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767860102/image_trail_gtxwju.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://ashu-gfx.github.io/Imagetrail-popin-hovereffect-following-mouse/' // Added link
+      tags: ['JavaScript', 'Interaction Design'],
+      link: 'https://ashu-gfx.github.io/Imagetrail-popin-hovereffect-following-mouse/' 
     },
     {
       id: 'p18',
       title: 'Image Tilt Effect',
-      category: '',
+      category: 'UI/UX Design',
       tab: 'not-responsive-yet',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767860337/image-tilt_huymho.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767860337/image-tilt_huymho.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://ashu-gfx.github.io/image-tilt-effect/' // Added link
+      tags: ['Vanilla JS', 'Tilt.js'],
+      link: 'https://ashu-gfx.github.io/image-tilt-effect/' 
     },
     {
       id: 'p19',
       title: 'Calm Creative Agency',
-      category: '',
+      category: 'Creative Agency',
       tab: 'Dev',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767883836/calm_1_efxdds.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767883836/calm_1_efxdds.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://20012511.github.io/calm/' // Added link
+      tags: ['HTML/CSS', 'Responsive'],
+      link: 'https://20012511.github.io/calm/' 
     },
     {
       id: 'p20',
       title: 'Finance Agency Landing Page',
-      category: '',
+      category: 'Fintech',
       tab: 'Dev',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767883639/Finan-gfx_1_h0upjr.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767883639/Finan-gfx_1_h0upjr.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://20012511.github.io/Finan-Gfx/' // Added link
+      tags: ['Modern UI', 'Finance'],
+      link: 'https://20012511.github.io/Finan-Gfx/' 
     },
     {
       id: 'p21',
       title: 'Brick Constructions Agency Landing Page',
-      category: '',
+      category: 'Construction',
       tab: 'Dev',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767890713/Brick_yynv7y.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767890713/Brick_yynv7y.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://20012511.github.io/brick/' // Added link
+      tags: ['Corporate', 'Web Design'],
+      link: 'https://20012511.github.io/brick/' 
     },
     {
       id: 'p22',
       title: 'GTA-6 Landing Page',
-      category: '',
+      category: 'Gaming',
       tab: 'React',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767981608/gta_tpg6td.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767981608/gta_tpg6td.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://gta-6-final.vercel.app/' // Added link
+      tags: ['React', 'Framer Motion', 'Tailwind'],
+      link: 'https://gta-6-final.vercel.app/' 
     },
     {
       id: 'p23',
       title: 'Gaming Website Awwwards',
-      category: '',
+      category: 'Gaming',
       tab: 'React',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767981608/gaming_gbtjdp.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767981608/gaming_gbtjdp.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://gaming-website-awwwards.vercel.app/' // Added link
+      tags: ['React', 'GSAP', 'Awwwards-Inspiration'],
+      link: 'https://gaming-website-awwwards.vercel.app/' 
     },
     {
       id: 'p24',
       title: 'Spylt Landing Page',
-      category: '',
+      category: 'Product Landing',
       tab: 'React',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767981607/spylt_q2llb6.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767981607/spylt_q2llb6.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://juice-can-animation-gsap.vercel.app/' // Added link
+      tags: ['React', 'GSAP 3D', 'Animation'],
+      link: 'https://juice-can-animation-gsap.vercel.app/' 
     },
     {
       id: 'p25',
       title: 'ochi Landing Page',
-      category: '',
+      category: 'Creative Agency',
       tab: 'React',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767981606/achi_d8q0a6.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767981606/achi_d8q0a6.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://ochi-website-clone-gsap.vercel.app/' // Added link
+      tags: ['React', 'Tailwind CSS', 'Framer Motion'],
+      link: 'https://ochi-website-clone-gsap.vercel.app/' 
     },
     {
-      id: 'p25',
+      id: 'p25_2',
       title: 'Gentlerain Ai Landing Page',
-      category: '',
+      category: 'AI Tech',
       tab: 'WebGl',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767982626/gentlerain_rzqsgd.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767982626/gentlerain_rzqsgd.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://gentlerain-ai-webgl-animation.vercel.app/' // Added link
+      tags: ['WebGL', 'Three.js', 'Shader'],
+      link: 'https://gentlerain-ai-webgl-animation.vercel.app/' 
     },
     {
       id: 'p26',
       title: 'Obys Agency Landing Page',
-      category: '',
+      category: 'Creative Agency',
       tab: 'Awwwards',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767983847/obys_cykl4g.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767983847/obys_cykl4g.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://obys-agency-website-ebon.vercel.app/' // Added link
+      tags: ['GSAP', 'Custom Cursor', 'Luxury UI'],
+      link: 'https://obys-agency-website-ebon.vercel.app/' 
     },
     {
       id: 'p27',
       title: 'Makepill Landing Page',
-      category: '',
+      category: 'Agency Portfolio',
       tab: 'Awwwards',
-      imageUrl:
-        'https://res.cloudinary.com/dumon96kf/image/upload/v1767984772/makepill_lze1dp.png',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1767984772/makepill_lze1dp.png',
       videoUrl: '',
-      tags: ['Figma'],
-      link: 'https://makepill-website-theta.vercel.app/' // Added link
+      tags: ['GSAP', 'Web Development', 'Interactive'],
+      link: 'https://makepill-website-theta.vercel.app/' 
     }
   ]
 
