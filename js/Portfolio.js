@@ -303,6 +303,36 @@ document.addEventListener('DOMContentLoaded', () => {
       videoUrl: '',
       tags: ['GSAP', 'Web Development', 'Interactive'],
       link: 'https://makepill-website-theta.vercel.app/' 
+    },
+    {
+      id: 'p28',
+      title: 'Fine Furnitures',
+      category: 'Product Landing Page',
+      tab: 'React',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1768251709/fine-furnitures_jwszyy.png',
+      videoUrl: '',
+      tags: ['GSAP', 'Web Development', 'Interactive'],
+      link: 'https://fine-furniture-s.vercel.app/' 
+    },
+    {
+      id: 'p29',
+      title: 'Carz Landing Page',
+      category: 'Automobile',
+      tab: 'Dev',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1768251831/carz_gjldbs.png',
+      videoUrl: '',
+      tags: ['Modern UI', 'Finance'],
+      link: 'https://20012511.github.io/Carz/' 
+    },
+    {
+      id: 'p30',
+      title: 'Automec Landing Page',
+      category: 'Automobile',
+      tab: 'Dev',
+      imageUrl: 'https://res.cloudinary.com/dumon96kf/image/upload/v1768251957/automec_bzdpq9.png',
+      videoUrl: '',
+      tags: ['Modern UI', 'Finance'],
+      link: 'https://20012511.github.io/automec/' 
     }
   ]
 
