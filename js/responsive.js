@@ -75,7 +75,7 @@ const optimizeCloudinaryImages = () => {
 document.addEventListener('DOMContentLoaded', optimizeCloudinaryImages)
 
 // gallery video otimization
-gsap.utils.toArray('video').forEach(video => {
+gsap.utils.toArray('.gallery-section div video').forEach(video => {
   ScrollTrigger.create({
     trigger: video,
     start: 'top bottom', // When the top of the video hits the bottom of the screen
